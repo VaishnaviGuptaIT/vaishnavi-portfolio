@@ -7,7 +7,7 @@ import TypedText from "@/components/TypedText";
 import FadeInObserver from "@/components/FadeInObserver";
 import ProjectCard from "@/components/ProjectCard";
 import ProjectModal from "@/components/ProjectModal";
-import ContactForm from "@/components/ContactForm";
+// import ContactForm from "@/components/ContactForm";
 import ScrollToTop from "@/components/ScrollToTop";
 import { projects } from "@/data/projects";
 
@@ -903,14 +903,14 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact">
+      <section id="contact" style={{ textAlign: "center" }}>
         <div className="section-label">Get In Touch</div>
         <h2 className="section-title">
           Let&apos;s Build Something
           <br />
           <span className="grad-text">Amazing Together</span>
         </h2>
-        <div className="section-line" />
+        <div className="section-line" style={{ margin: "0 auto 60px" }} />
         <div className="contact-grid fade-in">
           <div className="contact-info">
             <h3>Open to Opportunities</h3>
@@ -940,7 +940,7 @@ export default function Home() {
                 </div>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/vaishnavi-gupta-175ab1214/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-link"
@@ -952,7 +952,7 @@ export default function Home() {
                 </div>
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/VaishnaviGuptaIT"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-link"
@@ -960,7 +960,7 @@ export default function Home() {
                 <div className="contact-link-icon">🐙</div>
                 <div>
                   <div className="contact-link-text">GitHub</div>
-                  <div className="contact-link-sub">@vaishnavigupta</div>
+                  <div className="contact-link-sub">@VaishnaviGuptaIT</div>
                 </div>
               </a>
               <div className="contact-link" style={{ cursor: "default" }}>
@@ -974,7 +974,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <ContactForm />
+          {/* <ContactForm /> */}
         </div>
       </section>
 
@@ -993,7 +993,7 @@ export default function Home() {
             📧
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/vaishnavi-gupta-175ab1214/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-btn"
@@ -1002,7 +1002,7 @@ export default function Home() {
             💼
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/VaishnaviGuptaIT"
             target="_blank"
             rel="noopener noreferrer"
             className="social-btn"
