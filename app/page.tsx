@@ -52,7 +52,7 @@ export default function Home() {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1LCyPrdI0tK4vLIcpiCMcxcuesGYK32EV/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_KHjLykd_LGY7hc4kVM0vlA7z-uUuiWD/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -887,7 +887,7 @@ export default function Home() {
               }}
             >
               <a
-                href="https://drive.google.com/file/d/1LCyPrdI0tK4vLIcpiCMcxcuesGYK32EV/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_KHjLykd_LGY7hc4kVM0vlA7z-uUuiWD/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"
